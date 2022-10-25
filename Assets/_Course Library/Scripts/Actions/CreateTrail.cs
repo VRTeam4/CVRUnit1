@@ -8,6 +8,9 @@ public class CreateTrail : MonoBehaviour
 {
     public GameObject trailPrefab = null;
 
+    [Tooltip("Transform for how the object will be spawned")]
+    public Transform spawnPoint = null;
+
     private float width = 0.05f;
     private Color color = Color.white;
 
@@ -28,6 +31,7 @@ public class CreateTrail : MonoBehaviour
         trailRenderer.widthMultiplier = width;
         trailRenderer.startColor = color;
         trailRenderer.endColor = color;
+       
     }
 
     public void EndTrail()

@@ -612,7 +612,7 @@ MonoBehaviour:
   - {fileID: 7803483558938538586, guid: d5ce24e5a4b7c204f91c5fcf332df0e0, type: 3}
   - {fileID: 6150504353245752105, guid: 83c317aa14ee671448d2db7ce9755c0d, type: 3}
   spawnPoint: {fileID: 439447645}
-  attachToSpawnPoint: 0
+  attachToSpawnPoint: 1
 --- !u!54 &251758294
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8616,6 +8616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trailPrefab: {fileID: 7631491353434788432, guid: 594d006ac61ca0d4db9a3c2f2cba7eb8,
     type: 3}
+  spawnPoint: {fileID: 439447645}
 --- !u!82 &7785142639058902458
 AudioSource:
   m_ObjectHideFlags: 0
